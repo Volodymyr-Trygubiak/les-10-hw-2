@@ -56,24 +56,28 @@ a {
   width: 270px;
   height: 270px;
   margin-bottom: 15px;
-  background-color: #18b5dc;
   background-image: none;
   background-size: cover;
   display: flex;
   align-items: center;
   justify-content: center;
 }
-.foto-1:not(:hover) {
+.foto-1 {
   background: url(../img/img-2.jpg) center no-repeat;
 }
-.foto-2:not(:hover) {
+.foto-2 {
   background: url(../img/img-2.jpg) center no-repeat;
 }
-.foto-3:not(:hover) {
+.foto-3 {
   background: url(../img/img-3.jpg) center no-repeat;
 }
-.foto-4:not(:hover) {
+.foto-4 {
   background: url(../img/img-4.jpg) center no-repeat;
+}
+.temmate-foto:hover {
+  background-color: #18b5dc;
+  background-image: none;
+  transition: background-color .5s ease-out;  
 }
   
 .icon {
